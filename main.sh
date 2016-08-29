@@ -43,21 +43,21 @@ echo "INFO: TTY SIZE OK"
 echo "INFO: $dt"
 echo "INFO: $filename"
 echo 
-echo "###################################" >> /home/mods/results/results/$filename.txt
-echo "#Mighty Online Diagnostic script  #" >> /home/mods/results/results/$filename.txt
-echo "#Coded by blzrx, for internal use #" >> /home/mods/results/results/$filename.txt
-echo "#Code available on the following  #" >> /home/mods/results/results/$filename.txt
-echo "#GITHUB Page:                     #" >> /home/mods/results/results/$filename.txt
-echo "#https://github.com/blzrx         #" >> /home/mods/results/results/$filename.txt
-echo "###################################" >> /home/mods/results/results/$filename.txt
-echo "#######    Version 1.1     ########" >> /home/mods/results/results/$filename.txt
+echo "###################################" >> /home/mods/results/$filename.txt
+echo "#Mighty Online Diagnostic script  #" >> /home/mods/results/$filename.txt
+echo "#Coded by blzrx, for internal use #" >> /home/mods/results/$filename.txt
+echo "#Code available on the following  #" >> /home/mods/results/$filename.txt
+echo "#GITHUB Page:                     #" >> /home/mods/results/$filename.txt
+echo "#https://github.com/blzrx         #" >> /home/mods/results/$filename.txt
+echo "###################################" >> /home/mods/results/$filename.txt
+echo "#######    Version 1.1     ########" >> /home/mods/results/$filename.txt
 echo "###################################" >> /home/mods/results/$filename.txt
 echo "" >> /home/mods/results/$filename.txt
 echo "" >> /home/mods/results/$filename.txt
 
 #We start calling out expect scripts
 
-echo "########################PUT HERE YOU DEVICE HOSTNAME#####################################" >> //home/mods/results/$filename.txt
+echo "########################PUT HERE YOU DEVICE HOSTNAME#####################################" >> /home/mods/results/$filename.txt
 expect ./fuentes/p1corecrscnt.sh >> /home/mods/results/$filename.txt
 echo "###########################################################################" >> /home/mods/results/$filename.txt
 echo "INFO: Rutine PUT HERE YOU DEVICE HOSTNAME Complete!"
