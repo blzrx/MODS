@@ -27,7 +27,7 @@ if [[ coltty -lt 105  ]]
 		echo "ERROR: TTY Size is smaller than required!"
 		echo "ERROR: Fatal error, im sad :("
 		echo "ERROR: TTY $coltty x $rowtty"
-		echo "ERROR: Im dying, returing to the parent process."
+		echo "ERROR: Im dying, returning to the parent process."
 		exit
 	fi
 if [[ rowtty -lt 40 ]]
