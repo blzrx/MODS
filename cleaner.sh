@@ -16,7 +16,7 @@ ex +g/Escape/d -cwq /home/mods/results/$filename
 
 #EXAMPLE
 #If you want to delete the EXEC word in the file, put it between +g/ and /d, like this
-#ex +g/EXEC/d -cwq /home/itserv/ondiag/results/$filename
+#ex +g/EXEC/d -cwq /home/mods/results/$filename
 
 echo ""
 echo "File $filename cleaned!"
